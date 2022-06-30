@@ -1,0 +1,149 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  background-color: #007765;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 20px;
+  z-index: 999;
+  height: 50px;
+}
+
+nav {
+  display: inline-flex;
+  color: #FFF;
+}
+nav a {
+  margin: 0 auto;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #FFF;
+}
+
+main {
+  width: 100%;
+}
+
+h1 {
+  color: #007765;
+  font-size: 70px;
+  padding-top: 45px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+p {
+  text-align: left;
+  padding-bottom: 90px;
+}
+
+.pipernet {
+  background: url("images/image(6).png");
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  padding: 160px auto;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  color: #FFF;
+}
+
+.problem {
+  background-color: #EEEEEE;
+  margin: 0;
+  padding: 0 20px;
+}
+.problem p {
+  margin: 0 auto;
+}
+
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url("https://i.ibb.co/PM6cMBn/image.png");
+  background-size: cover;
+  background-position: center center;
+}
+.hero .container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.hero .container div {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+.coin {
+  background-color: #FFF;
+  margin: 0;
+  padding: 50px 20px;
+}
+.coin > p {
+  padding-bottom: 0;
+}
+
+.team {
+  background-color: #EEEEEE;
+  margin: 0;
+  padding: 160px auto;
+  width: 100%;
+}
+
+.member {
+  text-align: center;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  max-width: 350px;
+}
+
+.member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #007765;
+}
+
+.member-role {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+footer {
+  background-color: #333333;
+  padding: 30px;
+  width: 100%;
+  color: #EEEEEE;
+  font-size: 18px;
+}
+footer address {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-style: normal;
+}/*# sourceMappingURL=landing.css.map */
