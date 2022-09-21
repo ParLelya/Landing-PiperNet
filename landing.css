@@ -11,21 +11,31 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding-bottom: 20px;
   z-index: 999;
-  height: 50px;
-}
-
-nav {
+  height: 84px;
   display: inline-flex;
-  color: #FFF;
+  justify-content: space-evenly;
+  align-items: center;
 }
-nav a {
+header .logo {
+  height: 45px;
+  position: relative;
+  padding: 20px 0;
+  margin: 0;
+}
+header nav {
+  flex-shrink: 3;
+  display: flex;
+  color: #fff;
+}
+header nav a {
   margin: 0 auto;
   padding: 5px;
   text-decoration: none;
   font-size: 24px;
-  color: #FFF;
+  font-weight: 500;
+  line-height: 28px;
+  color: #fff;
 }
 
 main {
@@ -35,6 +45,7 @@ main {
 h1 {
   color: #007765;
   font-size: 70px;
+  font-weight: 500;
   padding-top: 45px;
   padding-bottom: 15px;
   margin: 0;
@@ -46,23 +57,24 @@ p {
 }
 
 .pipernet {
-  background: url("images/image(6).png");
+  background-image: url("https://ex-oblivione.github.io/pipernet_is_here/images/background-1.png");
   background-size: cover;
   background-position: center center;
   margin: 0;
-  padding: 160px auto;
-  padding-top: 128px;
-  padding-bottom: 128px;
-  color: #FFF;
+  padding: 180px 130px 160px;
+}
+.pipernet h1 {
+  color: #fff;
 }
 
 .problem {
-  background-color: #EEEEEE;
+  background-color: #eee;
   margin: 0;
   padding: 0 20px;
 }
 .problem p {
   margin: 0 auto;
+  padding: 0 450px 90px;
 }
 
 .hero {
@@ -81,7 +93,7 @@ p {
   padding-right: 55px;
 }
 .hero .container div {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
   font-weight: 500;
   font-size: 48px;
@@ -91,16 +103,32 @@ p {
 }
 
 .coin {
-  background-color: #FFF;
+  background-color: #fff;
   margin: 0;
   padding: 50px 20px;
 }
-.coin > p {
-  padding-bottom: 0;
+.coin .wrap {
+  margin: 0 auto;
+  padding: 15px 450px 40px;
+  display: grid;
+  grid-template-columns: 115px 930px;
+  grid-column-gap: 50px;
+  grid-row-gap: 35px;
+  grid-template-rows: 115px 225px;
+  align-content: center;
+}
+.coin .wrap img {
+  width: 115px;
+}
+.coin .wrap p {
+  margin: 0;
+}
+.coin .wrap :last-child {
+  grid-column: 1/span 2;
 }
 
 .team {
-  background-color: #EEEEEE;
+  background-color: #eee;
   margin: 0;
   padding: 160px auto;
   width: 100%;
@@ -135,10 +163,10 @@ p {
 }
 
 footer {
-  background-color: #333333;
+  background-color: #333;
   padding: 30px;
   width: 100%;
-  color: #EEEEEE;
+  color: #eee;
   font-size: 18px;
 }
 footer address {
