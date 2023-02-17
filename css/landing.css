@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 32px;
   margin: 0 auto;
   text-align: center;
@@ -13,33 +13,21 @@ header {
   width: 100%;
   z-index: 999;
   height: 84px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 header .logo {
   height: 45px;
   position: relative;
   padding: 20px 0;
   margin: 0;
 }
-
 header nav {
-  -ms-flex-negative: 3;
-      flex-shrink: 3;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  flex-shrink: 3;
   display: flex;
   color: #fff;
 }
-
 header nav a {
   margin: 0 auto;
   padding: 5px;
@@ -75,7 +63,6 @@ p {
   margin: 0;
   padding: 180px 130px 160px;
 }
-
 .pipernet h1 {
   color: #fff;
 }
@@ -85,7 +72,6 @@ p {
   margin: 0;
   padding: 0 20px;
 }
-
 .problem p {
   margin: 0 auto;
   padding: 0 450px 90px;
@@ -98,19 +84,16 @@ p {
   background-size: cover;
   background-position: center center;
 }
-
 .hero .container {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   max-width: 1219px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 55px;
   padding-right: 55px;
 }
-
 .hero .container div {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
   font-weight: 500;
   font-size: 48px;
@@ -124,34 +107,24 @@ p {
   margin: 0;
   padding: 50px 20px;
 }
-
 .coin .wrap {
   margin: 0 auto;
   padding: 15px 450px 40px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 115px 930px;
-      grid-template-columns: 115px 930px;
+  grid-template-columns: 115px 930px;
   grid-column-gap: 50px;
   grid-row-gap: 35px;
-  -ms-grid-rows: 115px 225px;
-      grid-template-rows: 115px 225px;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  grid-template-rows: 115px 225px;
+  align-content: center;
 }
-
 .coin .wrap img {
   width: 115px;
 }
-
 .coin .wrap p {
   margin: 0;
 }
-
 .coin .wrap :last-child {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-column: 1 / span 2;
+  grid-column: 1/span 2;
 }
 
 .team {
@@ -164,8 +137,7 @@ p {
 .member {
   text-align: center;
   padding: 24px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin-bottom: 30px;
   max-width: 350px;
 }
@@ -184,16 +156,10 @@ p {
 }
 
 .members {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 footer {
@@ -203,11 +169,9 @@ footer {
   color: #eee;
   font-size: 18px;
 }
-
 footer address {
   width: 500px;
   margin: 0 auto;
   text-align: center;
   font-style: normal;
-}
-/*# sourceMappingURL=landing.css.map */
+}/*# sourceMappingURL=landing.css.map */
